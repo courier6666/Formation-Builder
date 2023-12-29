@@ -1,0 +1,42 @@
+﻿<Window x:Class="CourseworkWPF.CreateEquipmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseworkWPF"
+        mc:Ignorable="d"
+        Title="CreateEquipmentWindow" Height="250" Width="500">
+    <Grid>
+        <Border Margin="0,0,251,19" BorderThickness="3" BorderBrush="Aquamarine" >
+            <Grid x:Name="imageEquipmentPanel" Background="AliceBlue" Margin="5,5,5,5" MouseLeftButtonDown="imageEquipmentPanel_MouseLeftButtonDown"  >
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" x:Name="noImageFoundLabel" Content="NO IMAGE FOUND"/>
+            </Grid>
+        </Border>
+        <Label Margin="255,79,10,129" Content="Equipment Model"/>
+        <TextBox Margin="255,112,10,92" RenderTransformOrigin="0.5,0.5" x:Name="equipmentModelTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Label Margin="255,11,10,197" Content="Equipment Type"/>
+        <TextBox Margin="255,44,10,160" RenderTransformOrigin="0.5,0.5" x:Name="equipmentTypeTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Button x:Name="createEquipmentButton" Margin="261,159,152,40"  Content="Create" Click="createEquipmentButton_Click"/>
+        <Button x:Name="resetEquipmentButton" Margin="403,159,10,40" Content="Reset" Click="resetEquipmentButton_Click"  />
+    </Grid>
+</Window>

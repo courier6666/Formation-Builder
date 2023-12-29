@@ -1,0 +1,87 @@
+Equipment Data Section:
+M27 IAR Assault rifle D:\2year\4 семестр\Прога курсова\CourseworkWPF\CourseworkWPF\EquipmentImages\M27_IAR.png
+M320A1 Grenade launcher D:\2year\4 семестр\Прога курсова\CourseworkWPF\CourseworkWPF\EquipmentImages\M320A1.png
+M239 Squad Automatic Weapon D:\2year\4 семестр\Прога курсова\CourseworkWPF\CourseworkWPF\EquipmentImages\M249.png
+M4A1 Assault Rifle file:///D:/2year/4 семестр/Прога курсова/CourseworkWPF/CourseworkWPF/EquipmentImages/M4A1_M320.png
+Equipment Data Section End
+Rank Data Section:
+Private first class 0 D:\2year\4 семестр\Прога курсова\CourseworkWPF\CourseworkWPF\RanksImages\US Marine Corps\E2-private-first-class.png
+Lance corporal 0 D:\2year\4 семестр\Прога курсова\CourseworkWPF\CourseworkWPF\RanksImages\US Marine Corps\E3-lance-corporal.png
+Corporal 0 D:\2year\4 семестр\Прога курсова\CourseworkWPF\CourseworkWPF\RanksImages\US Marine Corps\E4-corporal.png
+Sergeant 0 D:\2year\4 семестр\Прога курсова\CourseworkWPF\CourseworkWPF\RanksImages\US Marine Corps\E5-sergeant.png
+Leutenant 3 D:/2year/4 семестр/Прога курсова/CourseworkWPF/CourseworkWPF/RanksImages/US army/officers_ranks02.jpg
+Rank Data Section End
+Personnel Data Section:
+Sergeant Squad leader
+M27 IAR Corporal Assistant Squad leader
+M27 IAR Lance corporal Squad Systems Operator
+M27 IAR Corporal Team Leader
+M27 IAR Lance corporal Automatic Rifleman
+M239 Lance corporal Grenadier
+M27 IAR M320A1 Lance corporal Rifleman
+M27 IAR Leutenant Medic
+Personnel Data Section End
+Image - D:/2year/4 семестр/Прога курсова/CourseworkWPF/CourseworkWPF/amry_rifle_squad1.png
+ Formation: Marine Infantry Squad
+ Headquarters
+Image - D:/2year/4 семестр/Прога курсова/CourseworkWPF/CourseworkWPF/FormationImages/army_rifle_team_headquarters.png
+ Lowest Unit: Marine Infantry Headquarters Team
+ Commander
+ Squad leader
+ Commander End
+ Subordinate Personnel
+ Assistant Squad leader
+ Squad Systems Operator
+ Subordinate Personnel End
+ HeavyEquipment
+ HeavyEquipment End
+ AdditonalEquipment
+ AdditonalEquipment End
+ Lowest Unit End
+ Headquarters End
+ Subordinate Formations
+  Image - D:/2year/4 семестр/Прога курсова/CourseworkWPF/CourseworkWPF/FormationImages/army_rifle_team1.png
+   Lowest Unit: Marine Infantry Fire Team
+   Commander
+   Team Leader
+   Commander End
+   Subordinate Personnel
+   Automatic Rifleman
+   Grenadier
+   Rifleman
+   Subordinate Personnel End
+   HeavyEquipment
+   HeavyEquipment End
+   AdditonalEquipment
+   AdditonalEquipment End
+   Lowest Unit End
+  Image - D:/2year/4 семестр/Прога курсова/CourseworkWPF/CourseworkWPF/FormationImages/army_rifle_team1.png
+   Lowest Unit: Marine Sniper Team
+   Commander
+   Team Leader
+   Commander End
+   Subordinate Personnel
+   Subordinate Personnel End
+   HeavyEquipment
+   HeavyEquipment End
+   AdditonalEquipment
+   AdditonalEquipment End
+   Lowest Unit End
+  Image - D:/2year/4 семестр/Прога курсова/CourseworkWPF/CourseworkWPF/FormationImages/army_rifle_team1.png
+   Lowest Unit: Marine Sniper Team
+   Commander
+   Team Leader
+   Commander End
+   Subordinate Personnel
+   Subordinate Personnel End
+   HeavyEquipment
+   HeavyEquipment End
+   AdditonalEquipment
+   AdditonalEquipment End
+   Lowest Unit End
+ Subordinate Formations End
+ HeavyEquipment
+ HeavyEquipment End
+ AdditonalEquipment
+ AdditonalEquipment End
+ Formation End

@@ -1,0 +1,50 @@
+﻿<Window x:Class="CourseworkWPF.PersonnelCreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseworkWPF"
+        mc:Ignorable="d"
+        Title="PersonnelCreateWindow" Height="300" Width="250">
+    <Grid>
+        <Button x:Name="createPersonnelButton" Margin="11,249,152,10"  Content="Create" Click="createPersonnelButton_Click" Height="25"/>
+        <Button x:Name="resetPersonnelButton" Margin="153,249,10,10" Content="Reset" Height="25" Click="resetPersonnelButton_Click"  />
+        <Label Margin="11,3,10,248" Content="Personnel Rank"/>
+        <TextBox Margin="11,36,10,216" RenderTransformOrigin="0.5,0.5" x:Name="personnelRankTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Label Margin="10,68,10,188" Content="Personnel Role"/>
+        <TextBox Margin="10,101,10,150" RenderTransformOrigin="0.5,0.5" x:Name ="personnelRoleTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Label Margin="11,141,10,115" Content="Equipment. Example - &quot;M4, M16, ...&quot;"/>
+        <TextBox Margin="11,174,10,78" RenderTransformOrigin="0.5,0.5" x:Name ="personnelEquipmentTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+
+    </Grid>
+</Window>

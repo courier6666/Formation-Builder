@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CourseworkWPF.MilitaryFolder.Rank">
+    <Position X="7.75" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAIAAAACBAAAIAQAAEIAAAAE=</HashCode>
+      <FileName>MilitaryFolder\Ranks\Ranks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.RankFactory">
+    <Position X="4.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAQACAAAAAAAQAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\Ranks\Ranks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CourseworkWPF.MilitaryFolder.RankType" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAADAAAACAAAA=</HashCode>
+      <FileName>MilitaryFolder\Ranks\Ranks.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

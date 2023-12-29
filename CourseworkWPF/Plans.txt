@@ -1,0 +1,69 @@
+﻿- Program that helps to display, build and store military hierarchy(squad, platoon, company etc), and (might be implemented) carries out orders 
+to different formations from command.
+- Using composite design pattern to build military hierarchy for formations
+- Using some creational design patterns to form a formation
+  - Prototype - certain template to build a formation by
+  - Builder - to assamble a specific military formation with certain military support companies
+- Using Iterator to traverse military structure
+- (Done!) Using Flyweight design pattern for Ranks (Done!) (NOT YET!)
+- Using Flyweight design pattern for personnel equipment?(Maybe)
+- Using Factory design pattern for creating personnel?
+- Using Decorator design pattern for attaching image insignia for ranks(maybe not for ranks), units' designation and equipment.
+- Using JSON or some other format to store formation information
+- USing Flyweight for personnel roles?
+- Using Builder (and factory) for creating Vehicles and Equipment 
+- Using Strategy for saving data in different file formats (json, txt) or platforms, such as databases
+- Using Adapter pattern to allow objects to be using "Save" function, but without modyfying 
+
+Immidiate tasks:
+ - Create Composite Tree-like structure to build formations
+ - Set up ranking system
+ - Create module to create and set personnal equipment and vehicles for any formation
+ 
+  Scratch Notes:
+  09.02.2023
+  - Find it really hard to combine both lowest formation with some vehicles
+  and lowest sole infantry formation. In USA the lowest infantry formation
+  is a team. The next in hierarchy is squad. Squad can be issued with vehicles (APC and such).
+  10.02.2023
+  - The solution would be to make separate class "LowestUnitVehicle" that inherits "LowestUnit"
+  - Because it's a composite pattern, the leaf could be both a infantry team, and a vehicle squad.
+  11.02.2023
+  - It would be better to use U.S. army organization as an example for my program
+  - Need to make an array or list that contains additional equipment for formation
+  12.02.2023
+  - Having issues with handling formation's deputy leaders. Those who would be in charge in
+  case of leader's absence. I could create roles for every soldier in squad: machine gunner,
+  sharpshooter, riflemen, granedier, formation leader and so on. I would have to simple look for
+  a role to find out who is a deputy. 
+  - Should a vehicle crew be part of lowest unit, or a separate formation?
+  15.02.2023
+  - Still thinking about making separate classes for formations. One class for formation templates
+  and the other is for concrete existing formations, with real soldiers, battalions.
+  17.02.2023
+  - Hard to implement iterator for both Formation and LowestUnit. In formation we iterate through
+  other subordinal formation. But in LowestUnit we iterate through personnel. And there is a conflict
+  between data types (IFormation and Personnel). There is one solution i could think of. Maybe create 
+  separate interface IELement, which will be inherited by both IFormation and Personnel classes.
+  This way we will make IFormation and Personnel compatible. But it is a bit tedious to implement.
+  - I could actually use C# "Object". I would iterate through objects and if needed, use "as" and "is"
+  operators to find out what class am i iterating through.
+  22.02.2023
+  - Creating Decorator for assigning new behaviour to classes. In my case it is images. But i want to create
+  one decorator for equipment and not for personnel and heavy equipment. In formation classes, some equipment is
+  stored and one list contains heavy equipment, not abstract class equipment.
+  - Should Formation class and display methods be separate? If so then i have to make some kind of "Displayer" class
+  which handles objects to be displayed. In WPF it is a grid or panel where objects can be displayed on.
+  - I guess i have to put display method inside Formation class. It might not be beatiful solution, but it 
+  is a fair trade-off. At least I won't have to write a separate class for displaying formations. 
+  23.02.2023
+  - Is there even a need for decorator for Equipment class? I could just use some map data struture, and assign images
+  that way 
+  13.03.2023
+  - I should use some interface like "IAddFormation" and "IAddPersonnel" instead of crating such methods in base class "IFormation"
+  11.05.2023
+  - I think i should create some kind of a socket for formation to keep pointers to that formation, while using Decorator for IFormation interface.
+  02.06.2023
+  - Added Strategy pattern, probably should add options for all decorators
+  05.06.2023
+  - Chain of responsibility for manipulating decorators data, in case there is a lot of them

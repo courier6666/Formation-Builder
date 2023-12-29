@@ -1,0 +1,16 @@
+﻿<Window x:Class="CourseworkWPF.AddPersonnelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseworkWPF"
+        mc:Ignorable="d"
+        Title="AddPersonnelWindow" Height="450" Width="500">
+    <Grid>
+        <Grid x:Name="DisplayPersonnelPanel" Margin="0,0,0,85" Background="AliceBlue">
+            
+        </Grid>
+        <Button x:Name = "addPersonnelButton" Margin="10,369,305,29" Content="Add"/>
+        <Button x:Name = "cancelPersonnelButton" Margin="305,369,10,29" Content="Cancel" Click="cancelPersonnelButton_Click" />
+    </Grid>
+</Window>

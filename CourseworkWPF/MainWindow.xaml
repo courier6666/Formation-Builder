@@ -1,0 +1,52 @@
+﻿<Window x:Class="CourseworkWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseworkWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="545" Width="1033" Closing="Window_Closing">
+    <Grid>
+        <Label Margin="0,0,743,500">
+            List of templates
+        </Label>
+        <Grid Name ="TemplatesGrid" Margin="0,29,743,56"  Panel.ZIndex="-1">
+            <Grid Name="templatesSearchGrid" Margin="0,0,0,369" Background="AliceBlue" Height="80"/>
+            <Grid Name="TemplatesDisplayGrid" Background = "AliceBlue" Margin="0,80,0,0"/>
+
+        </Grid>
+        <Label Margin="295,0,315,500">
+            Formation display
+        </Label>
+        <Grid Margin="295,29,315,385" Name = "SelectedFormationDisplayGrid" Background ="AliceBlue" Panel.ZIndex="-1" Height="115"/>
+        <Grid Margin="295,149,315,56" Name = "FormationsDisplayGrid" Background ="AliceBlue" Panel.ZIndex="-1"/>
+        <Grid Name="SavedFormationGrid" Margin="723,29,0,56" Background="AliceBlue" Panel.ZIndex="-1">
+
+        </Grid>
+        <Label Margin="723,0,0,500">
+            List of existing formations
+        </Label>
+        <Button Name="formationsTabButton" Margin="0,478,963,25" Content="Formations" HorizontalAlignment="Right" Width="70" Click="formationsTabButton_Click">
+
+        </Button>
+        <Button Name ="PersonnelTabButon" Margin="75,478,888,25" Content="Personnel" Click="PersonnelTabButon_Click">
+
+        </Button>
+        <Button Name ="equipmentTabButton"  Margin = "150,478,813,25" Content = "Equipment" Click="equipmentTabButton_Click">
+
+        </Button>
+        <Button Margin="225,478,743,25" Content="Ranks" Click="Button_Click">
+
+        </Button>
+
+        <Button Name="changeViewButton" Content="Change view" Margin="295,478,638,25" Click="changeViewButton_Click">
+
+        </Button>
+        <Button Name="saveAllDataButton" Content="Save all data" Margin="400,478,533,25" Click="saveAllDataButton_Click" >
+
+        </Button>
+        <Button Margin="505,478,438,25" Name="loadDataButton" Content="Load all data" Click="loadDataButton_Click">
+
+        </Button>
+    </Grid>
+</Window>

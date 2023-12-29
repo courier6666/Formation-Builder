@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CourseworkWPF.MilitaryFolder.Personnel">
+    <Position X="12.75" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAACQAAEAAAAAQAAAAAAAAAAAAAAIAAABA=</HashCode>
+      <FileName>MilitaryFolder\Personnel\MilitaryPersonnel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.Rank">
+    <Position X="12" Y="17.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAIAAAACBAAAIAQAAEIAAAAE=</HashCode>
+      <FileName>MilitaryFolder\Ranks\Ranks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.RankFactory">
+    <Position X="14.25" Y="17.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAQACAAAAAAAQAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\Ranks\Ranks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.FormationDecorator">
+    <Position X="38.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAoQQAAAQAABMAAAAAAAAAIgAAAAAEAAAAAAAIAE=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Decorator\MilitaryFormationDecorator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.FormationImageDecorator">
+    <Position X="35.5" Y="22.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAABMAAAABAAAAMAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Decorator\MilitaryFormationDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.FormationSocket">
+    <Position X="40.5" Y="22.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAABMAAAAAIAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Decorator\MilitaryFormationDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.Formation">
+    <Position X="32.25" Y="19.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACgAA4QQAAIQEAAEUAAAAAAAQIgAAAAABAAAAAAAIAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Composite\MilitaryFormation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.LowestUnit">
+    <Position X="28.75" Y="19.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAoRQAAIQEAEEEAAAAAAAAohAAAAAAAgAAAAAKAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Composite\MilitaryFormation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.FormationBuilder" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAJAABAAAAAAAAIECgAAAAAAAAACAACAAAAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Builder\BuilderFormation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.LowestUnitBuilder" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAJAABAAAAAAAAIECgAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Builder\BuilderFormation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.Equipment">
+    <Position X="7" Y="11.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAQAAAAAAAAAAAAIAIAACAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\Equipment\MilitaryEquipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.EquipmentFactory">
+    <Position X="10" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAAAAAAAAAAAAQAIEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\Equipment\MilitaryEquipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.ConcreteDisplayerStrategySecondView">
+    <Position X="29.25" Y="13.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAoAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\ElementsDisplayer\ElementsDisplayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.FormationManager">
+    <Position X="25.75" Y="18.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>DiAABAAIEACEAAIQQAAwgAAgggAAAAQAIAACQCBAAAA=</HashCode>
+      <FileName>MilitaryFolder\AppFolder\Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.EquipmentManager">
+    <Position X="16.25" Y="12.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEBIAAAAAEAAEAAAQAAAAAAAgEIAAAAAAAAAABAAA=</HashCode>
+      <FileName>MilitaryFolder\AppFolder\Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.PersonnelManager">
+    <Position X="16" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAABQBAAAAGAAIAAAAAAAAgAgQAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\AppFolder\Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.RankManager">
+    <Position X="16.5" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQBAAAAABIAAQAAABAAAAAAAEAAAAABAAggAAA=</HashCode>
+      <FileName>MilitaryFolder\AppFolder\Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.MilitaryApp">
+    <Position X="22" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AGEMJJRAAACaAhMQQUQAAAAwAABAIAAASABKAAhAEAY=</HashCode>
+      <FileName>MilitaryFolder\AppFolder\Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkWPF.AddEquipmentToEquipmentListWindow">
+    <Position X="8.75" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAAAAAAAAAIAAAAAAAQAAAAAAAAABAAAACAA=</HashCode>
+      <FileName>AddEquipmentToEquipmentListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.AddFormationWindow">
+    <Position X="20.75" Y="18.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAA=</HashCode>
+      <FileName>AddFormationWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.AddPersonnelWindow">
+    <Position X="19.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AddPersonnelWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.CreateEquipmentWindow">
+    <Position X="12.75" Y="12.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAAAAAAEQAAAgAAAAAAAAABAAAAAAAAQAA=</HashCode>
+      <FileName>CreateEquipmentWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.CreateRankWindow">
+    <Position X="16.5" Y="21" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAAAIAAAAAAAAgAAIAAAAAAAAAAIAAAAQAA=</HashCode>
+      <FileName>CreateRankWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.FormationCreateWindow">
+    <Position X="22" Y="23" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="CourseworkWPF.FormationCreateWindow.Director" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FormationCreateWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAQACAAAAAAggAAAAAAAAAAAAAgAAIQAI=</HashCode>
+      <FileName>FormationCreateWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.PersonnelCreateWindow">
+    <Position X="16" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAABAAAAEAAQAAAAAAAAQAA=</HashCode>
+      <FileName>PersonnelCreateWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.ConcreteDisplayerStrategy">
+    <Position X="33.25" Y="13.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAoAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\ElementsDisplayer\ElementsDisplayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseworkWPF.MilitaryFolder.TxtFileDataSaver">
+    <Position X="28" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAAAAAQgAAAAACAAAAAAAAAEAAAABIAAAAAAQ=</HashCode>
+      <FileName>MilitaryFolder\DataManager\DataManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CourseworkWPF.MilitaryFolder.IHandler">
+    <Position X="38.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Decorator\MilitaryFormationDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseworkWPF.MilitaryFolder.IFormation">
+    <Position X="30.75" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAoQQAAAQAAAEAAAAAAAAAIgAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Composite\MilitaryFormation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseworkWPF.MilitaryFolder.IBuilderFormation">
+    <Position X="33.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAJAABAAAAAAAAIECgAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\FormationFolder\Builder\BuilderFormation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseworkWPF.MilitaryFolder.IDisplayerStrategy">
+    <Position X="27.75" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAoAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilitaryFolder\ElementsDisplayer\ElementsDisplayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseworkWPF.MilitaryFolder.IFileDataSaver">
+    <Position X="28" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAQgAAAAAAAAAAAAAAAEAAAABAAAAAAAQ=</HashCode>
+      <FileName>MilitaryFolder\DataManager\DataManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CourseworkWPF.MilitaryFolder.RankType" Collapsed="true">
+    <Position X="14.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAADAAAACAAAA=</HashCode>
+      <FileName>MilitaryFolder\Ranks\Ranks.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

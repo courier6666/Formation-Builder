@@ -1,0 +1,94 @@
+﻿<Window x:Class="CourseworkWPF.FormationCreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseworkWPF"
+        mc:Ignorable="d"
+        Title="FormationCreateWindow" Height="450" Width="500">
+    <Grid Margin="0,0,0,0">
+        <Border Margin="0,0,250,217" BorderThickness="3" BorderBrush="Aquamarine" >
+            <Grid Name="imagePanel" Background="AliceBlue" Margin="5,5,5,5" MouseLeftButtonDown="imagePanel_MouseLeftButtonDown">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Name="noImageFoundLabel">
+                    NO IMAGE FOUND
+                </Label>
+            </Grid>
+        </Border>
+        <Label Margin="255,6,10,400">
+            Formation Type
+        </Label>
+        <ComboBox Margin="255,39,10,363" Name="formationTypeComboBox">
+            <ComboBoxItem Content="Formation">
+                
+            </ComboBoxItem>
+            <ComboBoxItem Content="Lowest Unit">
+                
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Margin="255,76,10,330" Content="Formation Name"/>
+        <TextBox Margin="255,109,10,293" RenderTransformOrigin="0.5,0.5" Name="formationNameTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Label Margin="255,141,10,265" Content="Hierarchy Name"/>
+        <TextBox Margin="255,174,10,228" RenderTransformOrigin="0.5,0.5" Name ="hierarchyNameTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Label Margin="10,224,250,182" Content="Commander Rank"/>
+        <TextBox Margin="10,257,250,145" RenderTransformOrigin="0.5,0.5" Name ="commanderRankTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Label Margin="10,299,250,107" Content="Heavy equipment. Example:M4, AK-47,..."/>
+        <TextBox Margin="10,332,250,70" RenderTransformOrigin="0.5,0.5" Name ="heavyEquipmentAsignedTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Label Margin="255,299,10,107" Content="Additional Equipment"/>
+        <TextBox Margin="255,332,10,70" RenderTransformOrigin="0.5,0.5" Name ="AdditionalEquipmentAssignedTextBox">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+
+        </TextBox>
+        <Button x:Name="createFormationButton" Margin="60,384,290,15" Click="createFormationButton_Click">
+            Create
+        </Button>
+        <Button x:Name="resetFormationButton" Margin="305,384,45,15" Content="Reset" Click="resetFormationButton_Click"/>
+    </Grid>
+
+</Window>
